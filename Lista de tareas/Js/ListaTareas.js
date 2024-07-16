@@ -25,5 +25,19 @@ function agregarTarea() {
     //Agregamos el elemento li al ul 
     document.getElementById("listaTareas").appendChild(nuevaTarea);
 
+    //Tachar
+    let botonTachar = document.createElement("button");
+    botonTachar.textContent = "Tachar";
+    botonTachar.onclick = tachar;
+    function tachar(){
+        let nuevaTareaTexto = nuevaTarea;
+        nuevaTareaTexto.classList.toggle('tachado')}
+
+    nuevaTarea.appendChild(botonTachar);
+
+
+
     document.getElementById("nuevaTarea").value = "";
+
 }
+
