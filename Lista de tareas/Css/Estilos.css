@@ -1,0 +1,29 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 0%;
+    margin-left: 0;
+    background: rgb(30, 28, 28);
+}
+#particles-js {
+ height: 100%;
+ width: 100%;
+ position: absolute;
+ margin-top: 0;
+ z-index: -1;
+}
+
+li {
+    margin: 20px;
+    color: azure;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+h1{
+    color: azure;
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+}
