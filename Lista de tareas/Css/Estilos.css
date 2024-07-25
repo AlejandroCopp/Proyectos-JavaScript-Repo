@@ -27,3 +27,7 @@ h1{
     position: relative;
     z-index: 1;
 }
+
+.tachado {
+    text-decoration: line-through;
+}
